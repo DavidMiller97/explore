@@ -14,13 +14,15 @@ nav {
 }
 
 .container {
+
   height: 100vh;
 }
 .container img {
+
   width: 100%;
   position: absolute;
   height: 110vh;
-  object-fit: cover;
+  object-fit: cover; /*Toma el tamaño del contenedor, manteniendo la proporcion de la imagen*/
   z-index: -1;
 }
 .main-title {
@@ -28,7 +30,7 @@ nav {
   top: 30%;
   left: 50%;
   font-size: 6rem;
-  transform: translate(-50%, -30%);
+  transform: translate(-50%, -30%); /*Para colocarlo justo en medio -50% -50%*/
 }
 
 .content {
@@ -38,6 +40,15 @@ nav {
   z-index: 2;
   position: absolute;
 }
+
+.prueba{
+
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 2rem 20rem;
+  border-left: 2px solid white;
+}
+
 .content-images {
   display: flex;
   justify-content: space-around;
